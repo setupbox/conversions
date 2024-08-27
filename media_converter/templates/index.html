@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Converter</title>
+</head>
+<body>
+    <h1>Audio/Video Converter</h1>
+    <form action="/convert" method="post" enctype="multipart/form-data">
+        <label for="file">Choose an audio/video file to convert:</label>
+        <input type="file" name="file" id="file" required><br><br>
+        <label for="format">Convert to:</label>
+        <select name="format" id="format" required>
+            <option value="mp3">MP3 (Audio)</option>
+            <option value="wav">WAV (Audio)</option>
+            <option value="aac">AAC (Audio)</option>
+            <option value="flac">FLAC (Audio)</option>
+            <option value="ogg">OGG (Audio)</option>
+            <option value="wma">WMA (Audio)</option>
+            <option value="mp4">MP4 (Video)</option>
+            <option value="avi">AVI (Video)</option>
+            <option value="mov">MOV (Video)</option>
+            <option value="mkv">MKV (Video)</option>
+            <option value="flv">FLV (Video)</option>
+            <option value="wmv">WMV (Video)</option>
+        </select><br><br>
+        <input type="submit" value="Convert">
+    </form>
+</body>
+</html>
