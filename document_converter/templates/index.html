@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document Converter</title>
+</head>
+<body>
+    <h1>Document Converter</h1>
+    <form action="/convert" method="post" enctype="multipart/form-data">
+        <label for="file">Choose a document to convert:</label>
+        <input type="file" name="file" id="file" required><br><br>
+        <label for="format">Convert to:</label>
+        <select name="format" id="format" required>
+            <option value="pdf">PDF</option>
+            <option value="docx">DOCX</option>
+            <option value="md">Markdown</option>
+            <option value="html">HTML</option>
+            <option value="odt">ODT</option>
+            <option value="txt">Plain Text</option>
+        </select><br><br>
+        <input type="submit" value="Convert">
+    </form>
+</body>
+</html>
