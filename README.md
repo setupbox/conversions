@@ -20,40 +20,47 @@ A site for all types of conversions using python libraries and **flask** as back
 
 1. Install Python: Ensure **Python** is installed on your system.
 2. Install Flask: You can install **Flask** using pip.
-   'pip install Flask'
+   `pip install Flask`
     
 # Installation
 
 Install the dependancies by running the following command
-'sudo apt-get install imagemagick pandoc ffmpeg libreoffice texlive unoconv'
+`sudo apt-get install imagemagick pandoc ffmpeg libreoffice texlive unoconv`
 
 1. Clone this repository in your home directory
-   'git clone https://github.com/setupbox/conversions.git'
-   'cd conversions'
+   `git clone https://github.com/setupbox/conversions.git`
+   `cd conversions`
 
 2. Choose which service you want
 
 A. Document Converter
 
-1. 'cd image_converter'
-2. 'python3 app.py'
-
+```bash
+cd image_converter
+python3 app.py
+```
 B. Image Converter
 
-1. 'cd image_converter'
-2. 'python3 app.py'
+```bash
+cd image_converter
+python3 app.py
+```
 
 C. LibreOffice Converter
 
-1. 'cd libreoffice_converter'
-2. 'python3 app.py'
+```bash
+cd libreoffice_converter
+'python3 app.py
+```
 
 D. Media Converter
 
-1. 'cd media_converter'
-2. 'python3 app.py'
+```bash
+cd media_converter
+python3 app.py
+```
 
-Then now you can go to 'localhost:5000' on your system to acces the application and start converting your files.
+Then now you can go to `localhost:5000` on your system to acces the application and start converting your files.
 
 #Note
 
